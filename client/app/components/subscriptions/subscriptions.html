@@ -1,6 +1,15 @@
 <h1>Apple iPhone 6s 64GB Zilver</h1>
 <h3>Select subscription</h3>
+<br>
 <ul class="nav nav-sidebar">
+    <div class="sub-header row">
+        <div class="col-sm-2 col-md-2">Name</div>
+        <div class="col-sm-2 col-md-2">Minutes/sms</div>
+        <div class="col-sm-2 col-md-2">Internet</div>
+        <div class="col-sm-2 col-md-2">Device price</div>
+        <div class="col-sm-4 col-md-4">Costs / month</div>
+    </div>
+
 	<li class="subscription-item" ng-class="{'active':subscriptionsListCtrl.isCurrentSubscription(subscription)}"
 		ng-repeat="subscription in subscriptionsListCtrl.subscriptions">
 		<subscription-item
