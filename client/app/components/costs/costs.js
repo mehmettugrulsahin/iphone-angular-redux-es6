@@ -8,7 +8,7 @@ class CostsController {
     'ngInject';
 
     this.store = $ngRedux;
-    this.scope = $scope;    
+    this.scope = $scope;
   }
 
   $onInit() {
@@ -31,7 +31,12 @@ class CostsController {
   }
 
   getSelectedImage() {
-    return this.scope.selectedImage.url;
+    let defaultUrl = '/assets/img/apple-iphone-6-64gb-silver-front-409.png';
+
+    if (this.scope.selectedImage) {
+        return this.scope.selectedImage.url;    
+    }
+    return defaultUrl;
   }
 
   onImageSelected(image) {
