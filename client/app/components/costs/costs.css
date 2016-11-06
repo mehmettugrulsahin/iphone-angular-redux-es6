@@ -1,0 +1,12 @@
+.product-image {
+    max-height: 400px;
+    width: auto;
+    padding: 10px;
+    margin: 0 auto;
+    height: 270px;
+}
+
+.product-thumbnail {
+    height: 80px;
+    padding: 5px;
+}

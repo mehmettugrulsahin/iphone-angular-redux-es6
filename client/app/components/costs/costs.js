@@ -1,6 +1,7 @@
 import angular from 'angular';
 
 import template from './costs.html';
+import './costs.css';
 
 class CostsController {
   constructor($ngRedux) {

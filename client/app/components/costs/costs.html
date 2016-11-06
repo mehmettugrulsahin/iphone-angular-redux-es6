@@ -1,20 +1,90 @@
-<div class="costs">
+<div ng-if="costsListCtrl.currentSubscription.name">
     <div class="row">
-        {{costsListCtrl.currentSubscription.name}}
+        <div class="col-sm-2 col-md-2">
+            <img class="product-image" ng-src="{{costsListCtrl.imageslist[0].url}}">
+        </div>
+
+        <div class="col-sm-2 col-md-2">
+            <div class="row">
+                <img class="product-thumbnail" ng-src="{{costsListCtrl.imageslist[0].url}}">    
+            </div>
+            <div class="row">
+                <img class="product-thumbnail" ng-src="{{costsListCtrl.imageslist[1].url}}">
+            </div>
+            <div class="row">
+                <img class="product-thumbnail" ng-src="{{costsListCtrl.imageslist[2].url}}">
+            </div>
+            <div class="row product-thumbnail">Phone
+                {{costsListCtrl.deviceoriginalprice - costsListCtrl.currentSubscription.devicediscount}},-
+            </div>            
+        </div>
     </div>
-    <div class="row">
-        {{costsListCtrl.currentSubscription.volume}}
-    </div>
-    <div class="row">
-        {{costsListCtrl.currentSubscription.data}}
-    </div>
-    <div class="row">
-        {{costsListCtrl.currentSubscription.devicediscount}}
-    </div>
-    <div class="row">
-        {{costsListCtrl.currentSubscription.subscriptionprice}}
-    </div>
-    <div class="row">
-        {{costsListCtrl.currentSubscription.subscriptionprice - costsListCtrl.currentSubscription.subscriptionpricediscount}}
+
+    <div class="row"> 
+        <div class="col-sm-2 col-md-2">
+            Total per month
+        </div>
+        <div class="col-sm-2 col-md-2">
+            {{costsListCtrl.currentSubscription.subscriptionprice - costsListCtrl.currentSubscription.subscriptionpricediscount}}        
+        </div>
     </div>    
+
+    <div class="row">
+        <div class="col-sm-2 col-md-2">
+            Total one off
+        </div>
+        <div class="col-sm-2 col-md-2">
+            {{costsListCtrl.deviceoriginalprice - costsListCtrl.currentSubscription.devicediscount}}
+        </div>
+    </div>
+
+    <button class="btn btn-primary">Bestellen</button>    
+
+    <div class="row">
+        <div class="col-sm-2 col-md-2">
+            Monthly Costs
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2 col-md-2">
+            {{costsListCtrl.currentSubscription.name}}
+        </div>
+        <div class="col-sm-2 col-md-2">
+            {{costsListCtrl.currentSubscription.subscriptionprice}}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2 col-md-2">
+            Discount as long as your subscription runs
+        </div>
+        <div class="col-sm-2 col-md-2">
+            {{costsListCtrl.currentSubscription.subscriptionpricediscount}}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2 col-md-2">
+            One off
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2 col-md-2">
+            {{costsListCtrl.name}}    
+        </div>
+        <div class="col-sm-2 col-md-2">
+            {{costsListCtrl.deviceoriginalprice - costsListCtrl.currentSubscription.devicediscount}}    
+        </div>        
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2 col-md-2">
+            Original    
+        </div>
+        <div class="col-sm-2 col-md-2">
+            {{costsListCtrl.deviceoriginalprice}}    
+        </div>        
+    </div>
 </div>
