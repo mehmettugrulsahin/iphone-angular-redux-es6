@@ -1,12 +1,9 @@
     {
         "name": "Apple iPhone 6s 64GB Zilver",
         "imageslist": [
-            { "backbig": "/assets/img/iphone-back-big.jpeg"},
-            { "backsmall": "/assets/img/iphone-back-small.jpeg"},
-            { "frontbig": "/assets/img/iphone-front-big.jpeg"},
-            { "frontsmall": "/assets/img/iphone-front-small.jpeg"},
-            { "sidebig": "/assets/img/iphone-side-big.jpeg"},
-            { "sidesmall": "/assets/img/iphone-side-small.jpeg"}
+            { "url": "/assets/img/apple-iphone-6-64gb-silver-front-409.png"},
+            { "url": "/assets/img/apple-iphone-6-64gb-silver-side-409.png"},
+            { "url": "/assets/img/apple-iphone-6-64gb-silver-back-409.png"}
         ],
         "deviceoriginalprice": 729.00,
         "subscriptions": [
