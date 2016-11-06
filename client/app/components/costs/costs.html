@@ -1,18 +1,17 @@
 <div ng-if="costsListCtrl.currentSubscription.name">
     <div class="row">
+    
         <div class="col-sm-2 col-md-2">
-            <img class="product-image" ng-src="{{costsListCtrl.imageslist[0].url}}">
+            <img class="product-image" ng-click="costsListCtrl.getSelectedImage()" ng-src="{{selectedImage.url}}">
         </div>
 
         <div class="col-sm-2 col-md-2">
-            <div class="row">
-                <img class="product-thumbnail" ng-src="{{costsListCtrl.imageslist[0].url}}">    
-            </div>
-            <div class="row">
-                <img class="product-thumbnail" ng-src="{{costsListCtrl.imageslist[1].url}}">
-            </div>
-            <div class="row">
-                <img class="product-thumbnail" ng-src="{{costsListCtrl.imageslist[2].url}}">
+            <div ng-repeat="image in costsListCtrl.imageslist">
+                <div class="row">
+                    <img class="product-thumbnail"
+                    ng-click="costsListCtrl.onImageSelected(image)" 
+                    ng-src={{image.url}}>
+                </div>
             </div>
             <div class="row product-thumbnail">Phone
                 {{costsListCtrl.deviceoriginalprice - costsListCtrl.currentSubscription.devicediscount}},-

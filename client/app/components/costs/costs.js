@@ -4,10 +4,11 @@ import template from './costs.html';
 import './costs.css';
 
 class CostsController {
-  constructor($ngRedux) {
+  constructor($ngRedux, $scope) {
     'ngInject';
 
     this.store = $ngRedux;
+    this.scope = $scope;    
   }
 
   $onInit() {
@@ -18,14 +19,23 @@ class CostsController {
     this.unsubscribe();
   }
 
-  mapStateToThis(state) {
+  mapStateToThis(state) {    
     return {
       name: state.name,
       imageslist: state.imageslist,
       deviceoriginalprice: state.deviceoriginalprice,
       subscriptions: state.subscriptions,
-      currentSubscription: state.subscription
+      currentSubscription: state.subscription,
+      selectedImage: state.imageslist[0]
     }
+  }
+
+  getSelectedImage() {
+    return this.scope.selectedImage.url;
+  }
+
+  onImageSelected(image) {
+    this.scope.selectedImage = image;
   }
 }
 
