@@ -5,6 +5,7 @@ import './subscription-item.css';
 const SubscriptionItemComponent = {
   bindings: {
     subscription: '<',
+    deviceoriginalprice: '<',
     selected: '&'
   },
   template,

@@ -1,3 +1,7 @@
+.subscription-field {
+    text-decoration: line-through
+}
+
 .subscription-item {
   color: #0000ff;
   font-size: 15px;
