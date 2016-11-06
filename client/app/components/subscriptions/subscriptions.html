@@ -1,0 +1,11 @@
+<h1>Apple iPhone 6s 64GB Zilver</h1>
+<h3>Select subscription</h3>
+<ul class="nav nav-sidebar">
+	<li class="subscription-item" ng-class="{'active':subscriptionsListCtrl.isCurrentSubscription(subscription)}"
+		ng-repeat="subscription in subscriptionsListCtrl.subscriptions">
+		<subscription-item
+			subscription="subscription"
+			selected="subscriptionsListCtrl.onSubscriptionSelected(subscription)">
+		</subscription-item>
+	</li>
+</ul>
