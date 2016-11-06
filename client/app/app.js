@@ -17,7 +17,6 @@ import LogMonitor from 'redux-devtools-log-monitor';
 import DockMonitor from 'redux-devtools-dock-monitor';
 
 import template from './app.html';
-import './app.css';
 
 const rootReducer = combineReducers({
   name,

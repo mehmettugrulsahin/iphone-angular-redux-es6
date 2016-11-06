@@ -37,7 +37,6 @@
     display: block;
     overflow-x: hidden;
     overflow-y: auto /* Scrollable contents if viewport is shorter than content. */;
-    background-color: #97a7a7;
     border-right: 1px solid #7b807e;
   }
 }

@@ -9,12 +9,5 @@
   padding: 10px 15px;
   display: block;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
 }
 
-.subscription-item:hover,
-.subscription-item:focus {
-  text-decoration: none;
-  background-color: #d5dbd8;
-  color: #2b2828;
-}
