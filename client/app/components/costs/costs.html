@@ -25,7 +25,7 @@
             Total per month
         </div>
         <div class="col-sm-2 col-md-2">
-            {{costsListCtrl.currentSubscription.subscriptionprice - costsListCtrl.currentSubscription.subscriptionpricediscount}}        
+            € {{costsListCtrl.currentSubscription.subscriptionprice - costsListCtrl.currentSubscription.subscriptionpricediscount}}        
         </div>
     </div>    
 
@@ -34,7 +34,7 @@
             Total one off
         </div>
         <div class="col-sm-2 col-md-2">
-            {{costsListCtrl.deviceoriginalprice - costsListCtrl.currentSubscription.devicediscount}}
+            € {{costsListCtrl.deviceoriginalprice - costsListCtrl.currentSubscription.devicediscount}}
         </div>
     </div>
 
@@ -51,7 +51,7 @@
             {{costsListCtrl.currentSubscription.name}}
         </div>
         <div class="col-sm-2 col-md-2">
-            {{costsListCtrl.currentSubscription.subscriptionprice}}
+            € {{costsListCtrl.currentSubscription.subscriptionprice}}
         </div>
     </div>
 
@@ -60,7 +60,7 @@
             Discount as long as your subscription runs
         </div>
         <div class="col-sm-2 col-md-2">
-            {{costsListCtrl.currentSubscription.subscriptionpricediscount}}
+            - € {{costsListCtrl.currentSubscription.subscriptionpricediscount}}
         </div>
     </div>
 
@@ -75,7 +75,7 @@
             {{costsListCtrl.name}}    
         </div>
         <div class="col-sm-2 col-md-2">
-            {{costsListCtrl.deviceoriginalprice - costsListCtrl.currentSubscription.devicediscount}}    
+            € {{costsListCtrl.deviceoriginalprice - costsListCtrl.currentSubscription.devicediscount}}    
         </div>        
     </div>
 
@@ -84,7 +84,7 @@
             Original    
         </div>
         <div class="col-sm-2 col-md-2">
-            {{costsListCtrl.deviceoriginalprice}}    
+            € {{costsListCtrl.deviceoriginalprice}}  
         </div>        
     </div>
 </div>
