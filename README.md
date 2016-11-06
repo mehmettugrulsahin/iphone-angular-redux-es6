@@ -1,5 +1,5 @@
-# An Angular 1.x subscription demo with Redux
-This is a simple subscription demo built with AngularJS, [ng-redux](https://github.com/wbuchwalter/ng-redux), ES6, Webpack, and Gulp. It illustrates storing state in one place via Redux, and then using controllers to "glue" that state to the views.
+# An Angular 1.x iPhone subscription demo with Redux
+This is a simple iPhone subscription demo built with AngularJS, [ng-redux](https://github.com/wbuchwalter/ng-redux), ES6, Webpack, and Gulp. It illustrates storing state in one place via Redux, and then using controllers to "glue" that state to the views.
 
 ## Getting Started
 You will need `node` (`brew install node` or https://nodejs.org/en/) and `npm` (which ships with node).
