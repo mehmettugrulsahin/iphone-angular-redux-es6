@@ -2,55 +2,55 @@
     {
         "id": 0,
         "name": "Basis Mobiel",
-        "minutes": "150 or sms",
-        "internet": "500 MB",
-        "deviceprice": "509,00",
-        "costspermonthold": "44,00",
-        "costspermonthnew": "39,00"
+        "volume": "150 or sms",
+        "data": "500 MB",
+        "devicediscount": "509,00",
+        "subscriptionprice": "44,00",
+        "subscriptionpricediscount": "39,00"
     },
     {
         "id": 1,
         "name": "Vooral Internet Instap",
-        "minutes": "150 or sms",
-        "internet": "1 GB",
-        "deviceprice": "339,00",
-        "costspermonthold": "47,50",
-        "costspermonthnew": "42,50"
+        "volume": "150 or sms",
+        "data": "1 GB",
+        "devicediscount": "339,00",
+        "subscriptionprice": "47,50",
+        "subscriptionpricediscount": "42,50"
     },
     {
         "id": 2,
         "name": "Vooral Internet Standard",
-        "minutes": "200 or sms",
-        "internet": "5 GB",
-        "deviceprice": "249,00",
-        "costspermonthold": "52,50",
-        "costspermonthnew": "47,50"
+        "volume": "200 or sms",
+        "data": "5 GB",
+        "devicediscount": "249,00",
+        "subscriptionprice": "52,50",
+        "subscriptionpricediscount": "47,50"
     },
     {
         "id": 3,
         "name": "Zorgeloos Instap",
-        "minutes": "Unlimited",
-        "internet": "1 GB",
-        "deviceprice": "249,00",
-        "costspermonthold": "59,00",
-        "costspermonthnew": "49,00"
+        "volume": "Unlimited",
+        "data": "1 GB",
+        "devicediscount": "249,00",
+        "subscriptionprice": "59,00",
+        "subscriptionpricediscount": "49,00"
     },
     {
         "id": 4,
         "name": "Zorgeloos Premium",
-        "minutes": "Unlimited",
-        "internet": "10 GB",
-        "deviceprice": "129,00",
-        "costspermonthold": "74,00",
-        "costspermonthnew": "64,00"
+        "volume": "Unlimited",
+        "data": "10 GB",
+        "devicediscount": "129,00",
+        "subscriptionprice": "74,00",
+        "subscriptionpricediscount": "64,00"
     },
     {
         "id": 5,
         "name": "Zorgeloos Standard",
-        "minutes": "Unlimited",
-        "internet": "5 GB",
-        "deviceprice": "199,00",
-        "costspermonthold": "64,00",
-        "costspermonthnew": "54,00"
+        "volume": "Unlimited",
+        "data": "5 GB",
+        "devicediscount": "199,00",
+        "subscriptionprice": "64,00",
+        "subscriptionpricediscount": "54,00"
     }
 ]
