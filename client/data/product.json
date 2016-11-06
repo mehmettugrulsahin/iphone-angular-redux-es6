@@ -8,14 +8,14 @@
             { "sidebig": "/assets/img/iphone-side-big.jpeg"},
             { "sidesmall": "/assets/img/iphone-side-small.jpeg"}
         ],
-        "deviceoriginalprice": "729",
+        "deviceoriginalprice": 729.00,
         "subscriptions": [
             {
                 "id": 0,
                 "name": "Basis Mobiel",
                 "volume": "150 or sms",
                 "data": "500 MB",
-                "devicediscount": 509.00,
+                "devicediscount": 220.00,
                 "subscriptionprice": 44.00,
                 "subscriptionpricediscount": 5.00
             },
@@ -24,7 +24,7 @@
                 "name": "Vooral Internet Instap",
                 "volume": "150 or sms",
                 "data": "1 GB",
-                "devicediscount": 339.00,
+                "devicediscount": 390.00,
                 "subscriptionprice": 47.50,
                 "subscriptionpricediscount": 5.00
             },
@@ -33,7 +33,7 @@
                 "name": "Vooral Internet Standard",
                 "volume": "200 or sms",
                 "data": "5 GB",
-                "devicediscount": 249.00,
+                "devicediscount": 480.00,
                 "subscriptionprice": 52.50,
                 "subscriptionpricediscount": 5.00
             },
@@ -42,7 +42,7 @@
                 "name": "Zorgeloos Instap",
                 "volume": "Unlimited",
                 "data": "1 GB",
-                "devicediscount": 249.00,
+                "devicediscount": 480.00,
                 "subscriptionprice": 59.00,
                 "subscriptionpricediscount": 5.00
             },
@@ -51,7 +51,7 @@
                 "name": "Zorgeloos Premium",
                 "volume": "Unlimited",
                 "data": "10 GB",
-                "devicediscount": 129.00,
+                "devicediscount": 600.00,
                 "subscriptionprice": 74.00,
                 "subscriptionpricediscount": 10.00
             },
@@ -60,7 +60,7 @@
                 "name": "Zorgeloos Standard",
                 "volume": "Unlimited",
                 "data": "5 GB",
-                "devicediscount": 199.00,
+                "devicediscount": 530.00,
                 "subscriptionprice": 64.00,
                 "subscriptionpricediscount": 10.00
             }
