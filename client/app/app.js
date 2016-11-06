@@ -7,7 +7,7 @@ import ComponentsModule from './components/components';
 import { combineReducers } from 'redux';
 import thunk from 'redux-thunk';
 import ngRedux from 'ng-redux';
-import { subscriptions, subscription } from './components/subscriptions/subscriptions.state';
+import { name, imageslist, deviceoriginalprice, subscriptions, subscription } from './components/subscriptions/subscriptions.state';
 
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
@@ -20,6 +20,9 @@ import template from './app.html';
 import './app.css';
 
 const rootReducer = combineReducers({
+  name,
+  imageslist,
+  deviceoriginalprice,
   subscriptions,
   subscription
 });

@@ -18,7 +18,7 @@ class SubscriptionsController {
     const actions = Object.assign({}, this.SubscriptionsActions);
     this.unsubscribe = this.store.connect(this.mapStateToThis, actions)(this);
 
-    this.getSubscriptions();
+    this.getProduct();
   }
 
   $onDestroy() {
@@ -27,6 +27,9 @@ class SubscriptionsController {
 
   mapStateToThis(state) {
     return {
+      name: state.name,
+      imageslist: state.imageslist,
+      deviceoriginalprice: state.deviceoriginalprice,
       subscriptions: state.subscriptions,
       currentSubscription: state.subscription
     }
