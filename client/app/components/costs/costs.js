@@ -20,6 +20,10 @@ class CostsController {
 
   mapStateToThis(state) {
     return {
+      name: state.name,
+      imageslist: state.imageslist,
+      deviceoriginalprice: state.deviceoriginalprice,
+      subscriptions: state.subscriptions,
       currentSubscription: state.subscription
     }
   }
