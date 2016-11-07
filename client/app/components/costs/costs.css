@@ -1,12 +1,91 @@
+/*
+* Product images
+*/
+
+
+.product-images {
+    padding: 10px;
+    background-color: #CCCCCC;
+}
+
 .product-image {
     max-height: 400px;
     width: auto;
     padding: 10px;
     margin: 0 auto;
-    height: 270px;
+    height: 300px;
 }
 
-.product-thumbnail {
+/*
+* Product thumbnails
+*/
+
+.product-thumbnails {
     height: 80px;
     padding: 5px;
+}
+
+/*
+* Product price
+*/
+
+.product-price {
+   background-color: #1A99FF;
+    position: absolute;
+    padding :10px 20px;
+    font-weight: bold;
+    color : white;
+    font-size: 40 /16 * 1em;
+}
+
+/*
+* Product totals
+*/
+
+.product-totals {
+    background-color: #E3E3E3;
+    padding: 10px;
+}
+
+.product-totals-text {
+    margin-bottom: 20px;
+}
+
+.product-totals-text-primary {
+    font-weight: bold;
+}
+
+.product-totals-text-numeric {
+    text-align: right;
+}
+
+/*
+* Product extras
+*/
+
+
+.product-extras {
+    background-color: #F3F3F3;
+    padding:10px;
+}
+
+.product-extras-text {
+    margin-bottom: 10px;
+}
+
+.product-extras-text-primary{
+    font-weight: bold;
+}
+
+.product-extras-text-title{
+    margin: 20px 0;
+    font-size:21/ 16* 1em;
+}
+
+.product-extras-text-finally {
+    color: #FFA032;
+}
+
+.product-extras-text-numeric {
+    text-align: right;
 }
