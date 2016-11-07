@@ -24,21 +24,16 @@ cd iphone-redux
 ## Run
 Checkout command prompt to see the following
 ```
-[BS] Access URLs:
- ------------------------------------
-       Local: http://localhost:3000
-    External: http://192.168.2.1:3000
- ------------------------------------
-          UI: http://localhost:3001
- UI External: http://192.168.2.1:3001
- ------------------------------------
-[BS] Serving files from: client
+Local: http://localhost:3000
+External: http://192.168.2.1:3000
+ 
+UI: http://localhost:3001
+UI External: http://192.168.2.1:3001
 
 webpack: bundle is now VALID.
-
 ```
 
 Navigate to [localhost](http://localhost:3000)
 
 ## Test
-To run the tests, run `yarn test`
+To run the tests, run ```yarn test```
