@@ -1,19 +1,40 @@
-# An Angular 1.x iPhone subscription demo with Redux
-This is a simple iPhone subscription demo built with AngularJS, [ng-redux](https://github.com/wbuchwalter/ng-redux), ES6, Webpack, and Gulp. It illustrates storing state in one place via Redux, and then using controllers to "glue" that state to the views.
+# An Angular 1.x ES6 Apple iPhone 6s 64GB Silver subscriptions demo with Redux
+This is a demo built with AngularJS, [ng-redux](https://github.com/wbuchwalter/ng-redux), ES6, Webpack, and Gulp. It illustrates storing state in one place via Redux, and then using controllers to "glue" that state to the views.
 
-## Getting Started
-You will need `node` (`brew install node` or https://nodejs.org/en/) and `npm` (which ships with node).
+## Install Node
+You will need `node` (```brew install node``` or https://nodejs.org/en/) and ```npm```.
 
-## Installing
+## Install Yarn
+Install Yarn with ```npm install -g yarn``` or ```sudo npm install -g yarn```
+
+## Clone repo
 ```bash
 git clone https://github.com/mehmettugrulsahin/iphone-redux.git
+
 cd iphone-redux
-npm i
-gulp
 ```
 
-## Testing
-To run the tests, run `npm test` or `karma start`.
+## Install packages
+```yarn```
 
-Be sure to define your `*.spec.js` files within their corresponding component directory. You must name the spec file like so, `[name].spec.js`. If you don't want to use the `.spec.js` suffix, you must change the `regex` in `spec.bundle.js` to look for whatever file(s) you want.
-`Jasmine` is the testing suite and assertion library used for this project. If you would like to change this, see `karma.conf.js`.
+## Start
+```Yarn start```
+
+## Run
+Checkout command prompt to see the following
+```
+[BS] Access URLs:
+ ------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.2.1:3000
+ ------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.2.1:3001
+ ------------------------------------
+[BS] Serving files from: client
+```
+
+Navigate to [localhost](http://localhost:3000)
+
+## Test
+To run the tests, run `yarn test`
