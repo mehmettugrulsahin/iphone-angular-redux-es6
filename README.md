@@ -3,6 +3,7 @@ This is a demo built with AngularJS, [ng-redux](https://github.com/wbuchwalter/n
 
 ## Install Node
 You will need `node` (```brew install node``` or https://nodejs.org/en/) and ```npm```.
+Application runs with the latest ```v7.0.0``` version of node.
 
 ## Install Yarn
 Install Yarn with ```npm install -g yarn``` or ```sudo npm install -g yarn```
@@ -32,6 +33,9 @@ Checkout command prompt to see the following
  UI External: http://192.168.2.1:3001
  ------------------------------------
 [BS] Serving files from: client
+
+webpack: bundle is now VALID.
+
 ```
 
 Navigate to [localhost](http://localhost:3000)

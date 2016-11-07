@@ -36,7 +36,7 @@ describe('Subscriptions', () => {
       expect(result).toEqual({});
     });
 
-    it('should return correct payload on SET_CURRENT_SUBSCRIPTION action', () => {
+    it('should return correct payload on GET_CURRENT_SUBSCRIPTION action', () => {
       const newSubscription = { id: 1, name: 'Design' },
         result = subscription(initialState, {
           type: 'GET_CURRENT_SUBSCRIPTION',
