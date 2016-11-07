@@ -15,7 +15,6 @@
             </div>
 
             <div class="row product-price">Phone
-                <br/>
                 {{costsListCtrl.deviceoriginalprice - costsListCtrl.currentSubscription.devicediscount}},-
             </div>
         </div>
@@ -26,8 +25,8 @@
             <div class="col-sm-2 col-md-4 product-totals-text product-totals-text-primary">
                 Total per month
             </div>
-            <div class="col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-2 product-totals-numeric product-totals-text-primary">
-                € {{costsListCtrl.currentSubscription.subscriptionprice - costsListCtrl.currentSubscription.subscriptionpricediscount}}        
+            <div class="col-sm-2 col-sm-offset-3 col-md-2 col-md-offset-3 product-totals-numeric product-totals-text-primary">
+                <span ng-bind="'€ ' + (costsListCtrl.currentSubscription.subscriptionprice - costsListCtrl.currentSubscription.subscriptionpricediscount).toFixed(2).replace('.',',')">
             </div>
         </div>    
 
@@ -35,8 +34,8 @@
             <div class="col-sm-2 col-md-4 product-totals-text">
                 Total one off
             </div>
-            <div class="col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-2 product-totals-numeric product-totals-text-primary">
-                € {{costsListCtrl.deviceoriginalprice - costsListCtrl.currentSubscription.devicediscount}}
+            <div class="col-sm-2 col-sm-offset-3 col-md-3 col-md-offset-3 product-totals-numeric product-totals-text-primary">
+                <span ng-bind="'€ ' + (costsListCtrl.deviceoriginalprice - costsListCtrl.currentSubscription.devicediscount).toFixed(2).replace('.',',')">
             </div>
         </div>
 
@@ -54,8 +53,8 @@
             <div class="col-sm-2 col-md-4 product-extras-text product-extras-text-primary">
                 {{costsListCtrl.currentSubscription.name}}
             </div>
-            <div class="col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-2 product-extras-text product-extras-text-primary product-extras-text-numeric">
-                € {{costsListCtrl.currentSubscription.subscriptionprice}}
+            <div class="col-sm-2 col-sm-offset-2 col-md-3 col-md-offset-2 product-extras-text product-extras-text-primary product-extras-text-numeric">
+                <span ng-bind="'€ ' + (costsListCtrl.currentSubscription.subscriptionprice).toFixed(2).replace('.',',')">
             </div>
         </div>
 
@@ -63,8 +62,8 @@
             <div class="col-sm-3 col-md-6 product-extras-text">
                 Discount as long as your subscription runs
             </div>
-            <div class="col-sm-2 col-md-2 product-extras-text product-extras-text-primary product-extras-text-numeric product-extras-text-finally">
-                - € {{costsListCtrl.currentSubscription.subscriptionpricediscount}}
+            <div class="col-sm-2 col-md-3 product-extras-text product-extras-text-primary product-extras-text-numeric product-extras-text-finally">
+                <span ng-bind="'- € ' + (costsListCtrl.currentSubscription.subscriptionpricediscount).toFixed(2).replace('.',',')">
             </div>
         </div>
 
@@ -78,8 +77,10 @@
             <div class="col-sm-2 col-md-4 product-extras-text product-extras-text-primary">
                 {{costsListCtrl.name}}    
             </div>
-            <div class="col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-2 product-extras-text product-extras-text-primary product-extras-text-numeric product-extras-text-finally">
-                € {{costsListCtrl.deviceoriginalprice - costsListCtrl.currentSubscription.devicediscount}}    
+            <div class="col-sm-2 col-sm-offset-2 col-md-3 col-md-offset-2 product-extras-text product-extras-text-primary product-extras-text-numeric product-extras-text-finally">
+
+            <span
+                ng-bind="'€ ' + (costsListCtrl.deviceoriginalprice - costsListCtrl.currentSubscription.devicediscount).toFixed(2).replace('.',',')">
             </div>
         </div>
 
@@ -87,8 +88,8 @@
             <div class="col-sm-2 col-md-4 product-extras-text">
                 Original
             </div>
-            <div class="col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-2">
-                € {{costsListCtrl.deviceoriginalprice}}
+            <div class="col-sm-2 col-sm-offset-2 col-md-3 col-md-offset-3">
+                <span ng-bind="'€ ' + (costsListCtrl.deviceoriginalprice).toFixed(2).replace('.',',')">
             </div>
         </div>        
     </div>
