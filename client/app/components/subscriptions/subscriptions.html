@@ -1,19 +1,22 @@
-<h1>{{subscriptionsListCtrl.name}}</h1>
-<h3>Select subscription</h3>
+<div class=row"">
+    <h1>{{subscriptionsListCtrl.name}}</h1>    
+</div>
+<div class=row"">
+    <h3>Select subscription</h3>    
+</div>
 <br>
 <ul class="nav nav-sidebar">
     <div class="sub-header row">
-        <div class="col-sm-2 col-md-2">Name</div>
-        <div class="col-sm-2 col-md-2">Minutes/sms</div>
-        <div class="col-sm-2 col-md-2">Internet</div>
-        <div class="col-sm-2 col-md-2">Device Price</div>
-        <div class="col-sm-2 col-md-2">Price</div>
-        <div class="col-sm-2 col-md-2">Costs/month</div>
+        <h4 class="col-sm-2 col-md-2">Name</h4>
+        <h4 class="col-sm-2 col-md-2">Minutes/sms</h4>
+        <h4 class="col-sm-2 col-md-2">Internet</h4>
+        <h4 class="col-sm-2 col-md-2 col-md-offset-1">Device Price</h4>
+        <h4 class="col-sm-2 col-md-2">Costs/month</h4>
     </div>
 
 	<li class="subscription-item" ng-class="{'active':subscriptionsListCtrl.isCurrentSubscription(subscription)}"
 		ng-repeat="subscription in subscriptionsListCtrl.subscriptions">
-		<subscription-item
+		<subscription-item class="product-subscription-item"
             deviceoriginalprice="subscriptionsListCtrl.deviceoriginalprice"
 			subscription="subscription"
 			selected="subscriptionsListCtrl.onSubscriptionSelected(subscription)">

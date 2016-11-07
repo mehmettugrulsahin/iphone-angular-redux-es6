@@ -1,5 +1,8 @@
+.product-subscription-item {
+    padding: 20px 20px !important;
+}
+
 .sub-header {
-  padding-left: 15px;
   padding-bottom: 10px;
   border-bottom: 1px solid #eee;
   font-size: 12px;
