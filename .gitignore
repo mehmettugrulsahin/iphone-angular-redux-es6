@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+.tmp
+.git
+.settings
+*.log
+.idea/*
+client/bundle.js
+client/bundle.js.map
+npm-debug.log
+yarn-error.log

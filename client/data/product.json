@@ -1,0 +1,65 @@
+    {
+        "name": "Apple iPhone 6s 64GB Zilver",
+        "imageslist": [
+            { "url": "/assets/img/apple-iphone-6-64gb-silver-front-409.png"},
+            { "url": "/assets/img/apple-iphone-6-64gb-silver-side-409.png"},
+            { "url": "/assets/img/apple-iphone-6-64gb-silver-back-409.png"}
+        ],
+        "deviceoriginalprice": 729.00,
+        "subscriptions": [
+            {
+                "id": 0,
+                "name": "Basis Mobiel",
+                "volume": "150 or sms",
+                "data": "500 MB",
+                "devicediscount": 220.00,
+                "subscriptionprice": 44.00,
+                "subscriptionpricediscount": 5.00
+            },
+            {
+                "id": 1,
+                "name": "Vooral Internet Instap",
+                "volume": "150 or sms",
+                "data": "1 GB",
+                "devicediscount": 390.00,
+                "subscriptionprice": 47.50,
+                "subscriptionpricediscount": 5.00
+            },
+            {
+                "id": 2,
+                "name": "Vooral Internet Standard",
+                "volume": "200 or sms",
+                "data": "5 GB",
+                "devicediscount": 480.00,
+                "subscriptionprice": 52.50,
+                "subscriptionpricediscount": 5.00
+            },
+            {
+                "id": 3,
+                "name": "Zorgeloos Instap",
+                "volume": "Unlimited",
+                "data": "1 GB",
+                "devicediscount": 480.00,
+                "subscriptionprice": 59.00,
+                "subscriptionpricediscount": 5.00
+            },
+            {
+                "id": 4,
+                "name": "Zorgeloos Premium",
+                "volume": "Unlimited",
+                "data": "10 GB",
+                "devicediscount": 600.00,
+                "subscriptionprice": 74.00,
+                "subscriptionpricediscount": 10.00
+            },
+            {
+                "id": 5,
+                "name": "Zorgeloos Standard",
+                "volume": "Unlimited",
+                "data": "5 GB",
+                "devicediscount": 530.00,
+                "subscriptionprice": 64.00,
+                "subscriptionpricediscount": 10.00
+            }
+        ]
+    }

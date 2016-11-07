@@ -1,0 +1,20 @@
+<div class="subscriptionItem" ng-click="subscriptionItemCtrl.selected({subscription:subscriptionItemCtrl.subscription})">
+    <div class="row">
+        <div class="col-sm-2 col-md-2 product-subscription-name">{{subscriptionItemCtrl.subscription.name}}</div>
+        <div class="col-sm-2 col-md-2 product-subscription-value">{{subscriptionItemCtrl.subscription.volume}}</div>
+        <div class="col-sm-2 col-md-2 product-subscription-value">{{subscriptionItemCtrl.subscription.data}}</div>
+
+        <span class="col-sm-2 col-md-2 product-subscription-value product-subscription-value-numeric"
+              ng-bind="'€ ' + (subscriptionItemCtrl.deviceoriginalprice - subscriptionItemCtrl.subscription.devicediscount).toFixed(2).replace('.',',')"></span>
+
+        <div class="product-subscription-value product-subscription-value-numeric">
+            <span class="col-sm-2 col-md-2 product-subscription-price product-subscription-price-previously"
+                  ng-bind="'€ ' + (subscriptionItemCtrl.subscription.subscriptionprice).toFixed(2).replace('.',',')"></span>
+
+            <span class="col-sm-2 col-md-1 product-subscription-price product-subscription-price-finally"
+                  ng-bind="'€ ' + (subscriptionItemCtrl.subscription.subscriptionprice - subscriptionItemCtrl.subscription.subscriptionpricediscount).toFixed(2).replace('.',',')"></span>
+        </div>
+    </div>
+</div>
+
+

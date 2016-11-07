@@ -1,0 +1,88 @@
+{
+  "name": "iphone-redux",
+  "version": "1.0.0",
+  "description": "Apple iPhone subscription demo built with Angular 1.x, ng-redux, Webpack, and Gulp.",
+  "main": "client/bundle.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-mocks": "^1.5.8",
+    "angular-ui-router": "^0.3.2",
+    "bootstrap-css-only": "^3.3.6",
+    "lodash": "^4.16.6",
+    "ng-redux": "^3.4.0-beta.1",
+    "normalize.css": "^5.0.0",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.8",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "browser-sync": "^2.17.5",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "fs-walk": "^0.0.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-template": "^4.0.0",
+    "jasmine": "^2.5.2",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "^0.0.26",
+    "karma-webpack": "^1.8.0",
+    "ng-annotate-loader": "^0.2.0",
+    "node-libs-browser": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.13",
+    "raw-loader": "^0.5.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "redux-devtools": "^3.3.1",
+    "redux-devtools-dock-monitor": "^1.1.1",
+    "redux-devtools-log-monitor": "^1.1.1",
+    "run-sequence": "^1.2.2",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.3.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.1",
+    "webpack-stream": "^3.2.0",
+    "yargs": "^6.3.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "karma start"
+  },
+  "keywords": [
+    "angular",
+    "webpack",
+    "es6",
+    "redux",
+    "ng-redux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehmettugrulsahin/iphone-redux.git"
+  },
+  "author": {
+    "name": "Mehmet Tuğrul Şahin",
+    "url": "https://github.com/mehmettugrulsahin",
+    "email": "mehmettugrulsahin@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Mehmet Tuğrul Şahin",
+      "url": "https://github.com/mehmettugrulsahin",
+      "email": "mehmettugrulsahin@gmail.com"
+    }
+  ],
+  "license": "MIT"
+}

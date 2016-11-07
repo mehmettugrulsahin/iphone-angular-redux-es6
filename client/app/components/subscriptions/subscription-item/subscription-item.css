@@ -1,0 +1,31 @@
+/*
+* Product subscription
+*/
+
+.product-subscription {
+    cursor: pointer;
+}
+
+.product-subscription-selected {
+    background-color: #F3F3F3;
+}
+
+.product-subscription-value-numeric {
+    text-align: right;
+}
+
+.product-subscription-name {
+    font-weight: bold;
+}
+
+.product-subscription-price-previously {
+    text-decoration: line-through;
+}
+
+.product-subscription-price-finally {
+    color: #FFA032;
+}
+
+.product-subscription-price-device {
+    font-weight: bold;
+}
