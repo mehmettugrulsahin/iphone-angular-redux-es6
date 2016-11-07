@@ -1,6 +1,6 @@
 {
   "name": "iphone-redux",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Apple iPhone subscription demo built with Angular 1.x, ng-redux, Webpack, and Gulp.",
   "main": "client/bundle.js",
   "dependencies": {
