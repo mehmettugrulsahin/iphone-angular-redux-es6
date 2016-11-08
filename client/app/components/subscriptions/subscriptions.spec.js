@@ -37,7 +37,7 @@ describe('Subscriptions', () => {
     });
 
     it('should return correct payload on GET_CURRENT_SUBSCRIPTION action', () => {
-      const newSubscription = { id: 1, name: 'Design' },
+      const newSubscription = { id: 1, name: 'Vooral Internet Standard' },
         result = subscription(initialState, {
           type: 'GET_CURRENT_SUBSCRIPTION',
           payload: newSubscription
