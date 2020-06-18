@@ -4,7 +4,7 @@
   "description": "Apple iPhone subscription demo built with Angular 1.x, ng-redux, Webpack, and Gulp.",
   "main": "client/bundle.js",
   "dependencies": {
-    "angular": "^1.5.8",
+    "angular": "^1.8.0",
     "angular-animate": "^1.5.8",
     "angular-mocks": "^1.5.8",
     "angular-ui-router": "^0.3.2",
